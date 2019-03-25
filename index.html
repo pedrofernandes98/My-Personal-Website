@@ -11,6 +11,14 @@
   <!-- Ícone -->
   <link rel="icon" href="assets/img/PH_icon.png" name="PH_grande">
 
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  
 
 
 
@@ -19,17 +27,19 @@
 <body>
 
   <!--Menu de Navegação -->
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <div class="container-fluid">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark" id="navbar-menu">
+    <div class="container-fluid container">
       <a class="nav-brand" href="#"><img src="assets/img/PH_v202.png" width="200px" id="PH_logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
         <span class="navbar-toggler-icon"></span>
       </button>
+        
+
 
       <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ml-auto" id="lista-menu">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link active" href="#" >Home</a>
             </li>
 
             <li class="nav-item">
@@ -48,6 +58,14 @@
               <a class="nav-link" href="#">Contato</a>
             </li>
 
+            <li class="nav-item" id="social-medias-navbar" style="text-align: center;">
+              
+                <a class="fa fa-facebook" href="#"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-github"></a>
+            </li>
+
 
           </ul>
       </div>
@@ -60,12 +78,19 @@
     
 
 
+  
+  <script>
+        $(".navbar .navbar-nav li a").on("click", function(){
+          $(".navbar .navbar-nav li a").removeClass("active");
+          $(this).addClass("active");
+        });
+  </script>
 
 
 
 
 
-
+    
 
 
     <!-- Tags e Para referênciar os documentos bootstrap -->
