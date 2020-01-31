@@ -169,7 +169,7 @@ html, body{
 }
 
 .font_2 {
-    font: normal normal normal 30px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+    font: normal normal normal 30px/1.4em Playfar Display Bold,sans-serif;
 	color: #182153;
 	font-weight: bolder;
 	line-height: normal;
@@ -181,5 +181,29 @@ html, body{
     vertical-align: baseline;
     background: 0 0; 
 }
+
+.profission{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 25px;
+	color: #182153;
+}
+
+.title-info{
+	font-family: Avenir;
+	font-size: 20px;
+	font-weight: 800;
+	color: #182153;
+	margin-bottom: 0px;
+}
+
+.body-info{
+	font-family: Avenir Light;
+	font-size: 16px;
+	color: #182153;
+}
+
+ .infos{
+	margin-top: 30px;
+} 
 
 
