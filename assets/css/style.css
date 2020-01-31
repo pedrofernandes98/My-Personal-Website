@@ -152,6 +152,13 @@ html, body{
 	height: 470px;
 	margin: auto;
 	border-radius: 2.5%;
+	padding-top: 10%;
+	
+}  
+
+.about-left{
+	text-align: left;
+	/* padding: 30px; */
 	
 	
 }
