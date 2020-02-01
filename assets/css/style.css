@@ -50,10 +50,19 @@ html, body{
 		
 		/*width: 872px;*/
 		width: 100%;
+		border-radius: 0.5%;
 		
 		
 		
 	}
+
+	#my_photo{
+		
+		float: none;
+		margin: 30px 0px 30px 0px;
+	}
+
+
 }
 
 
@@ -152,10 +161,10 @@ html, body{
 	background-color: #fff;
 	/*width: 872px;*/
 	width: 80%;
-	height: 470px;
+	min-height: 470px;
 	margin: auto;
 	border-radius: 2.5%;
-	padding-top: 7.5%;
+	padding-top: 5.5%;
 	padding-left: 3.5%;
 	padding-right: 3.5%;
 	
@@ -199,11 +208,23 @@ html, body{
 .body-info{
 	font-family: Avenir Light;
 	font-size: 16px;
-	color: #182153;
+	color: #000000;
 }
 
  .infos{
 	margin-top: 30px;
 } 
+
+.responsive {
+	width: 100%;
+	max-width: 350px;
+	height: auto;
+}
+
+#my_photo{
+	margin: auto;
+	border-radius: 50%;
+	float: right;
+}
 
 
