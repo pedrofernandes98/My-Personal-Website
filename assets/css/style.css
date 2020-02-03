@@ -50,18 +50,25 @@ html, body{
 		
 		/*width: 872px;*/
 		width: 100%;
-		border-radius: 0.5%;
+		border-radius: 2.5%;
 		
 		
 		
 	}
-
 	#my_photo{
-		
-		float: none;
-		margin: 30px 0px 30px 0px;
+		margin: 0px !important;
+		border-radius: 50%;
+		float: right;
 	}
 
+	#container-responsive{
+		width: 100%; 
+		height: 675px !important;
+	}
+
+	.parallax{
+		padding-bottom: 0px !important;
+	}
 
 }
 
@@ -153,7 +160,7 @@ html, body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	padding-bottom: 500px;
+	padding-bottom: 205px;
 	padding-top: 100px;
 }
 
@@ -163,7 +170,7 @@ html, body{
 	width: 80%;
 	min-height: 470px;
 	margin: auto;
-	border-radius: 2.5%;
+	border-radius: 0.5%;
 	padding-top: 5.5%;
 	padding-left: 3.5%;
 	padding-right: 3.5%;
@@ -222,9 +229,50 @@ html, body{
 }
 
 #my_photo{
-	margin: auto;
-	border-radius: 50%;
+		
 	float: right;
+	margin: 30px 0px 30px 0px;
+	border-radius: 50%;
 }
 
+#container-responsive{
+	width: 100%; 
+	height: 740px;
+}
+
+/*---Section Description */
+
+#description{
+	background-color: #F1F1F1;
+}
+
+.text-box{
+	text-align: center;
+	width: 80%;
+	margin: auto;
+	padding-bottom: 35px;
+	/*font-family: Avenir Light;
+	font-size: 30px;*/
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 18px;
+}
+
+.text-box p{
+	margin-bottom: 2em;
+}
+
+#see-more{
+	border-radius: 20px;
+	/*padding: 20px;*/
+	background-color: #182153;
+	width: 200px;
+	margin: auto;
+	margin-top: 10px;
+	font-family: Montserrat;
+	font-weight: 500px;
+	font-size: 16px;
+	height: 40px;
+	
+}
 
