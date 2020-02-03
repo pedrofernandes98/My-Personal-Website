@@ -23,6 +23,12 @@ html, body{
 	height: 100%;
 }
 
+.division{
+	height: 65px;
+	background-color: #F1F1F1;
+}
+
+
 @media (min-width: 992px) {
 
 	.navbar .navbar-nav li .nav-link:hover{
@@ -343,3 +349,7 @@ html, body{
 	padding: 0px;
     padding-top: 20px;
 }
+
+
+/*Experience Section */
+
