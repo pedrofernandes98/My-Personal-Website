@@ -70,6 +70,27 @@ html, body{
 		padding-bottom: 0px !important;
 	}
 
+	.text-box{
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.education .card{
+		flex-direction: initial !important;
+	}
+
+	.card-box{
+		width: 80% !important;
+	}
+
+	.card-body{
+		padding: 30px !important;
+		
+	}
+
+	.card-item{
+		text-align: left !important;
+	}
 }
 
 
@@ -250,11 +271,11 @@ html, body{
 	text-align: center;
 	width: 80%;
 	margin: auto;
-	padding-bottom: 35px;
+	padding-bottom: 75px;
 	/*font-family: Avenir Light;
 	font-size: 30px;*/
-	padding-left: 50px;
-	padding-right: 50px;
+	/* padding-left: 50px;
+	padding-right: 50px; */
 	font-size: 18px;
 }
 
@@ -276,3 +297,49 @@ html, body{
 	
 }
 
+/*Education Section*/
+
+.education{
+	padding-top: 75px;
+}
+
+.education .card{
+	flex-direction: column;
+}
+
+#logo-puc{
+	/* max-width: 144px;
+	max-height: 120px; */
+	
+	max-width: 200px;
+    max-height: 166.67px;
+}
+
+.card-img-title{
+	font-family: Avenir;
+	color: #182153;
+	font-size: 20px;
+    font-weight: 600;
+}
+
+
+.card-box{
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	padding-bottom: 75px;
+	/*font-family: Avenir Light;
+	font-size: 30px;*/
+	/* padding-left: 50px;
+	padding-right: 50px; */
+	font-size: 18px;
+}
+
+.card-item{
+	text-align: center;
+}
+
+.card-body{
+	padding: 0px;
+    padding-top: 20px;
+}
