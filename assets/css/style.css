@@ -300,14 +300,14 @@ html, body{
 /*Education Section*/
 
 .education{
-	padding-top: 75px;
+	padding-top: 35px;
 }
 
 .education .card{
 	flex-direction: column;
 }
 
-#logo-puc{
+.img-logo{
 	/* max-width: 144px;
 	max-height: 120px; */
 	
